@@ -1,0 +1,24 @@
+.ui-popup-open{
+	overflow: hidden;
+}
+
+.ui-popup-hider{
+	background: rgba(0,0,0,0.5);
+	display: flex;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+	padding: 30px;
+}
+
+.ui-popup-content{
+	margin: auto;
+	background: #fff;
+	padding: 30px;
+	border-radius: 5px;
+	min-height: 230px;
+	min-width: 230px;
+}
