@@ -18,6 +18,7 @@
 				var innerElemWidth = $content.outerWidth();
 				var innerElemHeight = $content.outerHeight();
 
+
 				setPosition();
 
 				$window.resize(setPosition);
